@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Naïve Bayes Classifier - Notes</title>
+    <style>
+        /* General Styles */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f5; /* Light grey background */
+        }
+
+        /* Page Header */
+        h1 {
+            background-color: #6a1b9a; /* Dark purple */
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+            margin: 0;
+            border-bottom: 4px solid #8e24aa; /* Purple accent */
+        }
+
+        /* Main Content */
+        p {
+            padding: 20px;
+            line-height: 1.6;
+            color: #333;
+            max-width: 800px;
+            margin: 20px auto;
+        }
+
+        /* Strong text (Headings within content) */
+        strong {
+            color: #6a1b9a; /* Dark purple for emphasis */
+        }
+
+        /* Back Button */
+        a.back-button {
+            display: block;
+            margin: 20px auto;
+            padding: 10px;
+            text-align: center;
+            color: #fff;
+            background-color: #8e24aa; /* Purple button color */
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 1em;
+            width: 200px; /* Fixed width */
+            transition: background-color 0.3s, transform 0.3s;
+        }
+
+        a.back-button:hover {
+            background-color: #6a1b9a; /* Darker purple on hover */
+            transform: scale(1.05);
+        }
+    </style>
+</head>
+<body>
+    <h1>Naïve Bayes Classifier</h1>
+    <p><strong>What is it?</strong></p>
+    <p>The Naïve Bayes Classifier is a simple probabilistic classifier based on applying Bayes' theorem with strong (naive) independence assumptions between the features.</p>
+
+    <p><strong>Why do we use it?</strong></p>
+    <p>We use the Naïve Bayes Classifier because it is fast, easy to implement, and works well with large datasets. It is particularly effective for text classification and spam detection.</p>
+
+    <p><strong>How does it affect our dataset?</strong></p>
+    <p>The Naïve Bayes Classifier simplifies the dataset by assuming feature independence, which can lead to faster processing times. However, it may not capture complex dependencies in the data, so it's best used in scenarios where this assumption holds.</p>
+    <a href="/" class="back-button">Back to Main Page</a>
+</body>
+</html>

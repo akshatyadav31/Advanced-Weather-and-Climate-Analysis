@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Climate and Weather Prediction</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <header>
+        <h1>Climate and Weather Analysis</h1>
+    </header>
+    <main>
+        <div class="intro">
+            <img src="{{ url_for('static', filename='image.jpg') }}" alt="Climate and Weather" class="intro-img">
+        </div>
+        <div class="buttons">
+            <!-- Handling Missing Values and Imbalance Data -->
+            <div class="button-section">
+                <h2>Handling Missing Values and Imbalance Data</h2>
+                <a href="/handle_missing_data" class="main-button">Handle Missing Data</a>
+                <a href="/handle_imbalanced_data" class="main-button">Handle Imbalanced Data</a>
+                <a href="/missing_data_notes" class="more-button">More</a>
+            </div>
+
+            <!-- Exploratory Data Analysis (EDA) -->
+            <div class="button-section">
+                <h2>Exploratory Data Analysis (EDA)</h2>
+                <a href="/kmeans_clustering" class="main-button">K-Means Clustering</a>
+                <a href="/kmeans_notes" class="more-button">More</a>
+            </div>
+
+            <!-- Machine Learning Models -->
+            <div class="button-section">
+                <h2>Machine Learning Models</h2>
+                <a href="/decision_tree_classifier" class="main-button">Decision Tree Classifier</a>
+                <a href="/linear_regression" class="main-button">Linear Regression</a>
+                <a href="/ml_models_notes" class="more-button">More</a>
+            </div>
+
+            <!-- Probabilistic Learning -->
+            <div class="button-section">
+                <h2>Probabilistic Learning</h2>
+                <a href="/voting_classifier" class="main-button">Voting Classifier</a>
+                <a href="/probabilistic_learning_notes" class="more-button">More</a>
+            </div>
+
+            <!-- Naïve Bayes Classifier -->
+            <div class="button-section">
+                <h2>Naïve Bayes Classifier</h2>
+                <a href="/naive_bayes_classifier" class="main-button">Naïve Bayes Classifier</a>
+                <a href="/naive_bayes_notes" class="more-button">More</a>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
